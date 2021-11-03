@@ -13,7 +13,7 @@ namespace Monte_Carlo
             var pointsIn = 0.0;
             var allPoints = 0.0;
 
-            foreach (var unused in Enumerable.Range(0, 1000))
+            foreach (var itering in Enumerable.Range(0, 1000))
             {
                 var newPointX = random.NextDouble();
                 var newPointY = random.NextDouble();
